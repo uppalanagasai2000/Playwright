@@ -1,0 +1,11 @@
+{
+  "name": "playwright-tests",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest"
+  }
+}
