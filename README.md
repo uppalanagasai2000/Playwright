@@ -29,3 +29,6 @@ git remote add origin https://github.com/uppalanagasai2000/Playwright.git
 git branch -M main
 git push -u origin main
 ```
+Notes:
+- Run `npm run install:browsers` to install Playwright browsers.
+- Use `npm test` or `npm run test:headed` to run tests.

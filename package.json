@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "install:browsers": "npx playwright install"
   },
   "devDependencies": {
     "@playwright/test": "latest"
